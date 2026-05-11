@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# heavy artifacts (regenerate via scripts/)
+artifacts/
+*.pt
+*.bin
+*.safetensors
+
+# logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# secrets
+.env
+*.key

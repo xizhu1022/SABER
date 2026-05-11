@@ -1,0 +1,33 @@
+[project]
+name = "saber"
+version = "0.1.0"
+description = "SABER: Self-Aware Belief Estimator for RAG"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.3",
+    "transformers>=4.44",
+    "accelerate>=0.33",
+    "datasets>=2.20",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "tqdm>=4.66",
+    "rich>=13.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+vllm = ["vllm>=0.6"]
+quant = ["bitsandbytes>=0.43"]
+dev = ["pytest", "ruff"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

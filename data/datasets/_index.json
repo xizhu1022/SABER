@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-04-26T21:29:59",
+  "datasets": [
+    {
+      "dataset": "confiqa-qa",
+      "n_rows": 12000,
+      "n_supportive": 6000,
+      "n_conflicting": 6000,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 20205.4,
+      "path": "/common/users/xz778/ckpk/data/datasets/confiqa-qa.jsonl"
+    },
+    {
+      "dataset": "confiqa-mr",
+      "n_rows": 12000,
+      "n_supportive": 6000,
+      "n_conflicting": 6000,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 36998.4,
+      "path": "/common/users/xz778/ckpk/data/datasets/confiqa-mr.jsonl"
+    },
+    {
+      "dataset": "confiqa-mc",
+      "n_rows": 12000,
+      "n_supportive": 6000,
+      "n_conflicting": 6000,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 36492.9,
+      "path": "/common/users/xz778/ckpk/data/datasets/confiqa-mc.jsonl"
+    },
+    {
+      "dataset": "clasheval",
+      "n_rows": 11258,
+      "n_supportive": 1278,
+      "n_conflicting": 9980,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 89093.2,
+      "path": "/common/users/xz778/ckpk/data/datasets/clasheval.jsonl"
+    },
+    {
+      "dataset": "redditqa",
+      "n_rows": 450,
+      "n_supportive": 225,
+      "n_conflicting": 225,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 1207.2,
+      "path": "/common/users/xz778/ckpk/data/datasets/redditqa.jsonl"
+    },
+    {
+      "dataset": "conflictqa-popqa-llama2-7b",
+      "n_rows": 16054,
+      "n_supportive": 8137,
+      "n_conflicting": 7917,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 22554.0,
+      "path": "/common/users/xz778/ckpk/data/datasets/conflictqa-popqa-llama2-7b.jsonl"
+    },
+    {
+      "dataset": "conflictbank-pilot10k",
+      "n_rows": 40000,
+      "n_supportive": 10000,
+      "n_conflicting": 30000,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 137469.6,
+      "path": "/common/users/xz778/ckpk/data/datasets/conflictbank-pilot10k.jsonl"
+    },
+    {
+      "dataset": "conflictbank-pilot100k",
+      "n_rows": 400000,
+      "n_supportive": 100000,
+      "n_conflicting": 300000,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 1376248.9,
+      "path": "/common/users/xz778/ckpk/data/datasets/conflictbank-pilot100k.jsonl"
+    },
+    {
+      "dataset": "triviaqa-huang",
+      "n_rows": 2400,
+      "n_supportive": 1200,
+      "n_conflicting": 1200,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 6327.4,
+      "path": "/common/users/xz778/ckpk/data/datasets/triviaqa-huang.jsonl"
+    },
+    {
+      "dataset": "nq-huang",
+      "n_rows": 2418,
+      "n_supportive": 1209,
+      "n_conflicting": 1209,
+      "n_irrelevant": 0,
+      "n_complementary": 0,
+      "size_kb": 5116.1,
+      "path": "/common/users/xz778/ckpk/data/datasets/nq-huang.jsonl"
+    }
+  ]
+}
